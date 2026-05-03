@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "biome-js": {
+      "source": "paulrberg/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/biome-js/SKILL.md",
+      "computedHash": "30c995e907775ce3a727cbe00288a4fedbb24b8138e1165a51be309ef04799b0"
+    },
+    "conventional-commit": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "skillPath": "skills/conventional-commit/SKILL.md",
+      "computedHash": "f29c9486cede6c7b2df0cfb0a2e4aa67446552b991bcf17d1b309e903171f03d"
+    }
+  }
+}

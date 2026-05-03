@@ -43,10 +43,10 @@
 ## 6. Configuración de Lefthook
 
 - [x] 6.1 Crear archivo lefthook.yml en raíz del proyecto
-- [x] 6.2 Configurar pre-commit hook: ejecutar Biome lint
+- [x] 6.2 Configurar pre-commit con parallel: true, glob, y stage_fixed: true
 - [x] 6.3 Configurar commit-msg hook: ejecutar commitlint
 - [x] 6.4 Ejecutar `bunx lefthook install` para instalar Git hooks
-- [x] 6.5 Probar pre-commit hook con un archivo que tenga errores de lint
+- [x] 6.5 Probar pre-commit hook con Biome check --write en staged files
 - [x] 6.6 Probar commit-msg hook con mensaje inválido
 
 ## 7. Configuración de GitHub Actions (CI - Requiere Instalación de Bun)
@@ -67,8 +67,8 @@
 - [x] 8.1 Ejecutar `bun run lint` y verificar que funciona correctamente
 - [x] 8.2 Ejecutar `bun run format` y verificar que formatea correctamente
 - [x] 8.3 Ejecutar `bun run test` y verificar que los tests pasan
-- [ ] 8.4 Intentar commit con formato válido y verificar que pasa
-- [ ] 8.5 Intentar commit con formato inválido y verificar que rechaza
+- [x] 8.4 Intentar commit con formato válido y verificar que pasa (con lefthook stage_fixed)
+- [x] 8.5 Intentar commit con formato inválido y verificar que rechaza (commitlint)
 - [ ] 8.6 Push a branch y verificar que CI se ejecuta en GitHub
 - [ ] 8.7 Verificar que todos los jobs de CI pasan (lint, test, build, coverage)
 

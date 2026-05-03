@@ -69,8 +69,8 @@
 - [x] 8.3 Ejecutar `bun run test` y verificar que los tests pasan
 - [x] 8.4 Intentar commit con formato válido y verificar que pasa (con lefthook stage_fixed)
 - [x] 8.5 Intentar commit con formato inválido y verificar que rechaza (commitlint)
-- [ ] 8.6 Push a branch y verificar que CI se ejecuta en GitHub
-- [ ] 8.7 Verificar que todos los jobs de CI pasan (lint, test, build, coverage)
+- [x] 8.6 Push a branch y verificar que CI se ejecuta en GitHub
+- [x] 8.7 Verificar que todos los jobs de CI pasan (lint, test, build, coverage)
 
 ## 9. Desinstalación de Herramientas Antiguas (Opcional)
 
